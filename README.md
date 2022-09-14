@@ -15,7 +15,7 @@
 - Install neccesary dependencies:
 
 ```bash
-pip install MAVProxy dronekit dronekit-sitl wxPython
+pip install MAVProxy dronekit dronekit-sitl wxPython wheel
 ```
 
 - Setting up `home` position of `SITL`:
@@ -28,6 +28,12 @@ dronekit-sitl copter --home=LATITUDE,LONGITUDE,0,180
 
 ```bash
 mavproxy --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:10.20.1.85:14550
+```
+
+- Running `Go and Come Back` script:
+
+```bash
+python main.py --connect udp:127.0.0.1:14550
 ```
 
 ## Reference
