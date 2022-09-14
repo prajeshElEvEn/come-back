@@ -6,6 +6,7 @@ parser = argparse.ArgumentParser(description='commands')
 parser.add_argument('--connect')
 args = parser.parse_args()
 connection_string = args.connect
+
 print("[*] Connecting to vehicle on: %s" % (connection_string))
 vehicle = connect(connection_string, wait_ready=True)
 
