@@ -5,6 +5,8 @@
 ## Resources
 
 - [MAVProxy](https://ardupilot.org/mavproxy/)
+- [DroneKit](https://dronekit.io/)
+- [DroneKit-SITL](https://dronekit-python.readthedocs.io/en/latest/develop/sitl_setup.html)
 
 <!-- ## Installation -->
 
